@@ -1,7 +1,9 @@
 function App() {
+  const welcomeMessage = 'Hello React';
   return (
     <div>
-      <h1>Hello React</h1>
+      <div></div>
+      <h1>{welcomeMessage}</h1>
       <h5>Hello world</h5>
     </div>
   );
