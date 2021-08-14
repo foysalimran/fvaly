@@ -1,10 +1,13 @@
-import Home from './pages/Home/Home';
+import AppRouter from './AppRouter';
+import Header from './components/common/Header';
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <>
+      <AppRouter>
+        <Header />
+      </AppRouter>
+    </>
   );
 }
 
