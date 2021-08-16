@@ -1,0 +1,8 @@
+
+
+@import './abstracts/variables';
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "./reset/typography";
+@import './reset/reset';
+
+@import './components/common/Header/header';
