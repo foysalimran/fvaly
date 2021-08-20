@@ -10,8 +10,8 @@
     &__middle{
         // Middle logo 
         &--logo img{
-            max-width: 100px;
-            min-width: 100px;
+            width: 100%;
+            max-width: 120px;
         }
         // Middle search
         &--search{
